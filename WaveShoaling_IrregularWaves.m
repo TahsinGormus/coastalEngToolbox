@@ -14,7 +14,7 @@ prompt3='Deep sea wave height (m) H= ';
 H=Kd*Kr*input(prompt3);
 prompt4='Wave period (sec) T= ';
 T=input(prompt4);
-prompt5='Water depth (m) for significant wave height to be calculated: ';
+prompt5='Water depth (m) for wave height to be calculated: ';
 d=input(prompt5);
 prompt6='Bottom slope m= ';
 m=input(prompt6);
