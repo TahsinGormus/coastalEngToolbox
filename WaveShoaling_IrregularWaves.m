@@ -39,8 +39,7 @@ M=[B0m*H+B1m*d;Bmaxm*H;1.8*Ksnl*H];
 if dl0>=0.2
     Hs=Ksnl*H;
     Hmax=1.8*Ksnl*H;
-end
-if dl0<0.2
+elseif dl0<0.2
     Hs=min(S);
     Hmax=min(M);
 end
