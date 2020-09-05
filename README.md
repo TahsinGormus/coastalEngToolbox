@@ -4,7 +4,7 @@ I'm planning to arrange my codes and upload some of them here.
 
 ***
 Notes about the zero-crossing analysis:
-- It asks you the sea surface level data upon running the code. Provide the data as one-column numericals.
+- It asks you the sea surface level data upon running the code. Provide the data as one-column numericals. The surface levels meant to be referenced from the bottom.
 - The data points must be equidistant, i.e. the interval between the data points is always the same. The code also asks you this interval. If you have a non-equidistant data, please interpolate before using this code.
 - The output is a two-column text file, including wave height and period of each wave. The significant wave height is also calculated and printed in the screen.
 ***
