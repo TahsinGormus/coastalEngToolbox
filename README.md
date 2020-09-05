@@ -11,6 +11,7 @@ Notes about the zero-crossing analysis:
 
 ***
 Notes about the wave shoaling calculations:
+- Two codes are available for both calculating the transformed wave height from the deep sea wave height; and the deep sea wave height from the transformed wave height (denoted as inverse calculation).
 - The codes benefit from the n coefficient for calculating wave heights under the shoaling transformation conditions. As you might already know, this coefficient equals to 0.5 in deep water, where it begins to change as the waves approach the shoreline. It is said that n=1 for non-dipersive conditons of shallow water.
 - In regular hand & paper applications, the gravity wave table is used for identifying the shoaling coefficient. In the codes presented here, the shoaling coefficient (Ks) is calculated from aforementioned n coefficient. This is just a little bit of an advanced method.
 ***
